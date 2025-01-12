@@ -12,36 +12,36 @@
         body {
             background-color: #1C1B22;
             margin: 0;
-            height: 100vh;
+            max-height: 100%;
             display: flex;
             justify-content: center;
-            align-items: flex-start; 
-            margin-top: 14.5%;
-            margin-right: 3.5%;
+            align-items: flex-start;
+            padding-top: 13%;
+            padding-right: 2.5%;
         }
 
-        
         .container {
             display: flex;
             font-size: 30px;
             font-family: "Silkscreen", serif;
             font-weight: 400;
             font-style: normal;
-            flex-direction: column; 
-            justify-content: center; 
-            align-items: center;     
-            gap: 20px; 
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            transform: translateY(20px) translateX(-10px); /* Desce e move um pouco para a esquerda */
         }
 
         .container div {
-            display: flex; 
-            gap: 30px; 
+            display: flex;
+            gap: 30px;
         }
 
         .container a img {
-            height: 70px; 
-            justify-content: center; 
-            align-items: center; 
+            height: 70px;
+            justify-content: center;
+            align-items: center;
         }
 
         @keyframes colorChange1 {
@@ -63,8 +63,8 @@
         }
 
         h1 {
-            animation: colorChange1 5s infinite; 
-            text-align: center; 
+            animation: colorChange1 5s infinite;
+            text-align: center;
         }
 
     </style>
