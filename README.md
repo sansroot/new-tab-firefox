@@ -13,3 +13,8 @@ https://sansroot.github.io/new-tab-firefox/vertical.html
 https://sansroot.github.io/new-tab-firefox/horizontal.html
 ```
 4. Done.
+
+---
+
+#### Preview:
+![image](https://github.com/user-attachments/assets/656d1f37-0eec-4d28-ab9d-5c3cfb454ec1)
