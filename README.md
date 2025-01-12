@@ -9,8 +9,8 @@
 ```
 https://sansroot.github.io/new-tab-firefox/vertical.html
 ```
-or if you have horizontal tabs toggled on, set this url:
-   ```
+ or if you have horizontal tabs toggled on, set this url:
+```
 8.  https://sansroot.github.io/new-tab-firefox/horizontal.html
-   ```
+```
 3. done.
