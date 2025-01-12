@@ -1,6 +1,6 @@
-### This is a page coded in html/css to replace the default one of firefox
+## This is a page coded in html/css to replace the default one of firefox
 
-### installation:
+### Installation:
 
 1. install new-tab-override extension: <a>https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/</a>
 2. open the extension settings
