@@ -1,5 +1,7 @@
 ## This is a page coded in html/css to replace the default one of firefox
 
+---
+
 ### Installation:
 
 1. Install new-tab-override extension: <a>https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/</a>
