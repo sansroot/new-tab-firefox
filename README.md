@@ -12,4 +12,4 @@ https://sansroot.github.io/new-tab-firefox/vertical.html
 ```
 https://sansroot.github.io/new-tab-firefox/horizontal.html
 ```
-3. done.
+4. done.
