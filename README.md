@@ -2,14 +2,14 @@
 
 ### Installation:
 
-1. install new-tab-override extension: <a>https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/</a>
-2. open the extension settings
-3. if you have vertical tabs toggled on, set this url:
+1. Install new-tab-override extension: <a>https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/</a>
+2. Open the extension settings
+3. If you have vertical tabs toggled on, set this url:
 ```
 https://sansroot.github.io/new-tab-firefox/vertical.html
 ```
- or if you have horizontal tabs toggled on, set this url:
+ If you have horizontal tabs toggled on, set this url:
 ```
 https://sansroot.github.io/new-tab-firefox/horizontal.html
 ```
-4. done.
+4. Done.
