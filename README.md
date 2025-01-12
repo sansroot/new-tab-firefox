@@ -3,6 +3,6 @@
 
 ### installation:
 
-1. install this extension: <a>https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/</a>
+1. install new-tab-override extension: <a>https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/</a>
 2. open the extension settings and set custom url to ```https://sansroot.github.io/new-tab-firefox/vertical.html``` or ```https://sansroot.github.io/new-tab-firefox/horizontal.html```
 3. done.
