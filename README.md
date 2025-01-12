@@ -1,5 +1,4 @@
 ### This is a page coded in html/css to replace the default one of firefox
-#### There is two layouts, one if you are using vertical tabs, and other if you are using horizontal tabs.
 
 ### installation:
 
