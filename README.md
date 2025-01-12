@@ -1,6 +1,4 @@
-## This is a page coded in html/css to replace the default one of firefox
-
----
+# New tab for Firefox!
 
 ### Installation:
 
