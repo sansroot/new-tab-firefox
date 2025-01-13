@@ -18,4 +18,4 @@ https://sansroot.github.io/new-tab-firefox/horizontal.html
 ---
 
 #### Preview:
-![image](https://github.com/user-attachments/assets/656d1f37-0eec-4d28-ab9d-5c3cfb454ec1)
+![image](https://github.com/user-attachments/assets/c7bfd21b-d200-4cfe-84b4-8e2abc744250)
