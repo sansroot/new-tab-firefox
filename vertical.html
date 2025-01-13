@@ -18,6 +18,7 @@
             align-items: flex-start;
             padding-top: 13%;
             padding-right: 2.5%;
+            animation: blurIn 0.7s forwards, scaleIn 0.7s forwards;
         }
 
         .container {
@@ -42,6 +43,25 @@
             height: 60px;
             justify-content: center;
             align-items: center;
+            animation: scaleIn 0.7s forwards;
+        }
+
+        @keyframes blurIn {
+            0% {
+                filter: blur(10px);
+            }
+            100% {
+                filter: blur(0);
+            }
+        }
+
+        @keyframes scaleIn {
+            0% {
+                transform: scale(0.5);
+            }
+            100% {
+                transform: scale(1);
+            }
         }
 
         @keyframes colorChange1 {
