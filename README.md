@@ -12,7 +12,8 @@ https://sansroot.github.io/new-tab-firefox/vertical.html
 ```
 https://sansroot.github.io/new-tab-firefox/horizontal.html
 ```
-4. Done.
+4. Install Catppuccin Firefox theme: <a>https://addons.mozilla.org/en-US/firefox/addon/catpuccin/</a>
+5. Done.
 
 ---
 
