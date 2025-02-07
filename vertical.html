@@ -11,28 +11,24 @@
     <style>
         body {
             background-color: #1e1e2e;
-            margin: 0;
-            max-height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            padding-top: 13%;
-            padding-right: 2.5%;
-            animation: blurIn 0.7s forwards, scaleIn 0.7s forwards;
+
         }
 
-        .container {
-            display: flex;
-            font-size: 30px;
-            font-family: "Silkscreen", serif;
-            font-weight: 400;
-            font-style: normal;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 20px;
-            transform: translateY(20px) translateX(-10px); 
+    .container {
+        display: flex;
+        font-size: 30px;
+        font-family: "Silkscreen", serif;
+        font-weight: 400;
+        font-style: normal;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60vh; /* Faz com que o container ocupe toda a altura da tela */
+        width: 100%; /* Garante que a largura ocupe toda a tela */
+        margin: 0; /* Remove margens padrão */
+        animation: blurIn 0.7s forwards, scaleIn 0.7s forwards;
         }
+
 
         .container div {
             display: flex;
@@ -86,10 +82,19 @@
             animation: colorChange1 5s infinite;
             text-align: center;
         }
+        .horas{
+            font-size: 30px;
+            font-family: "Silkscreen", serif;
+            animation: colorChange1 3s infinite;
+            margin-top: 20px;
+            padding-left: 1%;
 
+        }
     </style>
 </head>
 <body>
+    <p class="horas" id="horas"></p>
+  
     <div class="container">
         <h1>Welcome, San's!</h1>
         <div>
@@ -101,7 +106,16 @@
             <a href="https://sansroot.github.io/My-Rices/"><img src="./rice.png" alt="catppuccin"></a>
             <a href="https://catppuccin.com/"><img src="./catppuccin.png" alt="catppuccin"></a>
             <a href="https://wiki.archlinux.org/title/Main_page"><img src="./arch1.png" alt="archwiki"></a>
+            
+
         </div>
     </div>
+   
+<script>
+    var agora = new Date()
+    var hora = agora.toLocaleTimeString()
+    a = window.document.getElementById("horas")
+    a.innerText = hora
+</script>
 </body>
 </html>
