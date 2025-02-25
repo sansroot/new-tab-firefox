@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./favico.png">
+    <style>
+    body {
+        background-color: #121212;
+        }
+    .container {
+        display: flex;
+        font-size: 30px;
+        font-family: "Silkscreen", serif;
+        font-weight: 400;
+        font-style: normal;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        width: 100%; 
+        margin: 0; 
+        animation: blurIn 0.7s forwards, scaleIn 0.7s forwards;
+        }
+        .container div {
+            display: flex;
+            gap: 20px;
+        }
+        .container a img {
+            height: 60px;
+            justify-content: center;
+            align-items: center;
+            animation: scaleIn 0.7s forwards;
+        }
+        @keyframes blurIn {
+            0% {
+                filter: blur(10px);
+            }
+            100% {
+                filter: blur(0);
+            }
+        }
+        @keyframes scaleIn {
+            0% {
+                transform: scale(0.5);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        @keyframes colorChange1 {
+            0% {
+                color: #b4befe;
+            }
+            25% {
+                color: #cba6f7;
+            }
+            50% {
+                color: #a6e3a1;
+            }
+            75% {
+                color: #eba0ac;
+            }
+            100% {
+                color: #b4befe;
+            }
+        }
+        h1 {
+            color: #c9c9c9;
+            text-align: center;
+        }
+        .horas{
+            font-size: 30px;
+            font-family: "Silkscreen", serif;
+            color: #c9c9c9;
+            margin-top: 20px;
+            padding-left: 1%;
+        }
+    </style>
+</head>
+<body>
+    <p class="horas" id="horas"></p>
+    <div class="container">
+        <h1>Welcome, San's!</h1>
+        <div>
+            <a href="https://discord.com"><img src="./discord.png" alt="Discord"></a>
+            <a href="https://github.com"><img src="./github.png" alt="GitHub"></a>
+            <a href="https://linkedin.com"><img src="./linkedin.png" alt="LinkedIn"></a>
+            <a href="https://reddit.com"><img src="./reddit.png" alt="Reddit"></a>
+            <a href="https://youtube.com"><img src="./youtube.png" alt="youtube"></a>
+            <a href="https://sansroot.github.io/My-Rices/"><img src="./rice.png" alt="catppuccin"></a>
+            <a href="https://catppuccin.com/"><img src="./catppuccin.png" alt="catppuccin"></a>
+            <a href="https://wiki.archlinux.org/title/Main_page"><img src="./arch1.png" alt="archwiki"></a>
+        </div>
+    </div>
+<script>
+    function atualizar(){
+        var agora = new Date()
+        var hora = agora.toLocaleTimeString()
+        a = window.document.getElementById("horas")
+        a.innerText = hora        
+    }
+    setInterval(atualizar, 0100)
+</script>
+</body>
+</html>
